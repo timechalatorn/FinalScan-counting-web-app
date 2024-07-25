@@ -8,7 +8,7 @@ import os
 
 st.set_page_config(page_title="FinalScan Counting Object", page_icon=":smiley:")
 
-API_URL = "http://127.0.0.1:8000"  # Adjust if your FastAPI server runs on a different address/port
+API_URL = "http://54.169.100.234/"  # Adjust if your FastAPI server runs on a different address/port
 
 def main():
     st.title("FinalScan Counting Object")
